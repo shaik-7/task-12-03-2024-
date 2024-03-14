@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <style>
+           .menu-btn{
+            display:flex;
+            flex-direction:column;
+            width:30px;
+            height: 40px;
+            padding:10px;
+            position:fixed;
+            right:0;
+           }
+           .line{
+            width: 30px;
+            height: 2px;
+            margin: 2px 0px;
+            padding: 2px;
+            background-color:black;
+           }
+            .menu-btn:hover{
+                background-color: lightgrey;
+                transition:320ms;
+            }
+            h1,h3{
+                margin:0;
+                border:0;
+                color:grey;
+            }
+            body{
+                background-color:;
+            }
+            #toggleButton{
+                padding:15px;
+                background-color:black;
+                color:white;
+                width: 180px;
+            }
+            #toggleButton:hover{
+                background-color:lightcoral;
+                transition:320ms;
+                gap:0px;
+            }
+            .gallery{
+                display:grid;
+                grid-template-columns:500px 500px 500px;
+                grid-template-rows:900px;
+                margin-top:-10px;
+            }
+            footer{
+                background-color: whitesmoke;
+                padding: 10px;
+                margin-top:auto;
+                text-align: center;
+                width:100%;
+                height:200px;
+                position:relative;
+                top: 1500px;
+                left: 0px;
+            }
+            .socialmedia  {
+                position:relative;
+                top: 60px;
+            }
+            .lastitem{
+                position:relative;
+                top: 80px;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <pre>
+        <div class="menu-btn">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <center>
+        <section style="color:whitesmoke">
+        <div><h1>PHOTOLIO</h1>
+        <h3>A template made by w3.css for photographers.</h3>
+        <div id="toggleButton">Toggle Grid Padding</div>
+        </div>
+        </section>
+        </center>
+        </pre>
+        <div class="gallery">
+            <div>
+                <img src="https://www.w3schools.com/w3images/rocks.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/sound.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/woods.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/rock.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/nature.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/mist.jpg" width="500px">
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/coffee.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/bridge.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/notebook.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/london.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/rocks.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/avatar_g.jpg" width="500px">
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/mist.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/workbench.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/gondol.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/skies.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/lights.jpg" width="500px">
+                <img src="https://www.w3schools.com/w3images/workshop.jpg" width="500px">
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="socialmedia">
+            <a href="https://www.facebook.com" style="color:gray">
+                <i class="fab fa-facebook" style="font-size: 25px"></i>
+            </a>
+            <a href="https://www.instagram.com" style="color:gray">
+                <i class="fab fa-instagram" style="font-size: 25px"></i>
+            </a>
+            <a href="https://www.snapchat.com" style="color:gray">
+                <i class="fab fa-snapchat" style="font-size: 25;"></i>
+            </a>
+            <a href="https://www.twitter.com" style="color:gray">
+                <i class="fab fa-twitter" style="font-size: 25;"></i>
+            </a>
+            <a href="https://www.linkedin.com" style="color:gray">
+                <i class="fab fa-linkedin" style="font-size: 25"></i>
+            </a>
+        </div>
+        <div style="color:gray" class="lastitem">
+            Powered by W3.css
+        </div>
+    </footer>
+</html>
